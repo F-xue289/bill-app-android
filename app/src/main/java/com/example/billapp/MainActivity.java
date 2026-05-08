@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements BillAdapter.OnBil
         
         // 根据净金额设置颜色和符号
         if (netAmount >= 0) {
-            // 收入大于等于支出，显示绿色，使用+
+            // 收入大于等于支出，显示绿色，使用+号
             mTotalAmountTextView.setTextColor(0xFF4CAF50);
             mTotalAmountTextView.setText(String.format("¥ +%.2f", netAmount));
         } else {
