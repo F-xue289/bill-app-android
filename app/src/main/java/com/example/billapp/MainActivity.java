@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements BillAdapter.OnBil
 
                 if ("收入".equals(type)) {
                     totalIncome += amount;
-                } else if ("支出".equals(type)) {
+                } else if ("支".equals(type)) {
                     totalExpense += amount;
                 }
             }
