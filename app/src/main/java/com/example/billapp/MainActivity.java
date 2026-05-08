@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements BillAdapter.OnBil
             mTotalAmountTextView.setTextColor(0xFF4CAF50);
             mTotalAmountTextView.setText(String.format("¥ +%.2f", netAmount));
         } else {
-            // 支出大于收入，显示红色，使用-
+            // 支出大于收入，显示红色，使用-号
             mTotalAmountTextView.setTextColor(0xFFF44336);
             mTotalAmountTextView.setText(String.format("¥ %.2f", netAmount));
         }
